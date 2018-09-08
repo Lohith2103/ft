@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.hero-image {
+margin:2% 4% 0 10%; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.brand
+{
+	color:blue;font-size:25px;opacity:1;font-weight:bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:17px;
+	opacity:0.5;
+	font-family: 'PT Serif', serif;
+	
+}
+
+li button{
+font-family: 'PT Serif', serif;
+font-weight: bold;
+	font-size:17px;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 15px;
+    cursor: pointer;
+}
+
+.button1 {
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button2 {
+background-color: #fff;
+color:blue;
+-webkit-box-shadow: 4px 2px 9px 0px rgba(0, 34, 50, 0.73);
+-moz-box-shadow:    4px 2px 9px 0px rgba(0, 34, 50, 0.73);
+box-shadow:         4px 2px 9px 0px rgba(0, 34, 50, 0.73);
+}
+
+.button3 {
+background-color: #f9b62f;
+color:#fff;
+-webkit-box-shadow: 4px 2px 0px 0px rgba(0, 34, 50, 0.73);
+-moz-box-shadow:    4px 2px 0px 0px rgba(0, 34, 50, 0.73);
+box-shadow:         4px 2px 0px 0px rgba(0, 34, 50, 0.73);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(203, 202, 206,0.4);
+-moz-box-shadow:    0px 4px 0px 0px rgba(203, 202, 206,0.4);
+box-shadow:         0px 4px 0px 0px rgba(203, 202, 206,0.4);
+}
+
+* {box-sizing: border-box;}
+
+
+
+.wrapper > div {
+  padding: 15em;
+}
+
+.search-box,.search-wrapper {
+	position: relative;
+	padding: 10px;
+}
+.search-wrapper {
+	width: 550px;
+}
+.search-box {
+	width: 50%;
+}
+
+
+.wrapper >.left_div
+{
+	padding:100px 0;font-family: 'PT Serif', serif;color:blue;
+}
+
+.wrapper >.left_div h1
+{
+	font-size:40px;line-height:20px;font-family: 'Open Sans', sans-serif;
+						word-spacing:4px;
+}
+
+.wrapper >.left_div p
+{
+	color:#838384;font-size:20px;
+}
+
+.wrapper >.right_div
+{
+	height:400px;
+	background-image:url('../ft.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.search_button
+{
+	font-weight:bold;font-family: 'PT Serif', serif;font-size:17px;margin-left:5px;
+}
